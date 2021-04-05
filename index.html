@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>HAND GESTURE WEBAPP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+  
+  <body>
+    <button><h1 class="glow">HAND GESTURE WEBAPP
+      </h1>
+      <span>&#128076;</span>
+      <span>&#128077;</span>
+      <span>&#9996;</span>
+    </button>
+      
+    <span>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Webcam View - </label>
+	      <div id="camera"></div>
+	      <br><br>
+	      <button onclick="take_snapshot();" class="btn btn-primary">Capture Image</button>
+      </div>
+    </span>
+    
+<span>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Prediction 1 - </label>
+	      <p class="emotion_name" id="result_emotion_name"></p>
+	      <p class="emoji" id="update_emoji"></p>
+        </span>
+  
+	<span>      
+	      <label>Snapshot - </label>
+	      <div id="result"></div>
+	      <br><br>
+	      <button onclick="check();" class="btn btn-info">Predict Emotion</button>
+	     </div>
+    </span>
