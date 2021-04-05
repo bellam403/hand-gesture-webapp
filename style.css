@@ -1,36 +1,20 @@
 body {
-  text-align: center;
-}
-
-.glow {
-  font-size: 80px;
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdb-gyHe9FIVYAHFHr9-oY1mehGjT6WzTXeQ&usqp=CAU");
   }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #0277BD, 0 0 40px #0277BD, 0 0 50px #0277BD, 0 0 60px #0277BD, 0 0 70px #0277BD, 0 0 80px #0277BD;
-  }
-}
+  
+  #camera , #result
+    {
+      border: 2px dashed black;
+      width: 250px;
+      height: 250px; 
+  background-color: black;
+    }
 
-span {
-  font-size: 80px;
-}
+    span {
+      font-size: 80px;
+    }
 
-#camera , #result
-  {
-    border: 2px dashed black;
-    width: 350px;
-    height: 300px; 
-
-    
     label {
-      font-size: 25px;
+      font-size: 18px;
     }
