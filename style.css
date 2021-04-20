@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdb-gyHe9FIVYAHFHr9-oY1mehGjT6WzTXeQ&usqp=CAU");
+    background-image: url("hands.gif");
   }
   
   #camera , #result
@@ -8,7 +8,7 @@ body {
       border: 2px dashed black;
       width: 250px;
       height: 250px; 
-  background-color: black;
+  
     }
 
     span {
